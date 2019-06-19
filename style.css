@@ -15,13 +15,13 @@ body {
     box-sizing: border-box;
 }
 
-/* top nav bar style */
+/* topnav */
 .topnav {
     overflow: hidden;
     background-color: black;
 }
 
-/* topnav links style */
+/* topnav style */
 .topnav a {
     float: left;
     display: block;
@@ -32,7 +32,7 @@ body {
     text-decoration: none;
 }
 
-/* hover color change */
+/* hover color */
 .topnav a:hover {
     background-color: white;
     color: black;
@@ -56,14 +56,14 @@ body {
     color: white;
 }
 
-/* 3 columns floating beside eachother */
+
 .column {
     float: left;
     width: 33.33%;
     padding: 15px;
 }
 
-/* floats after the columns */
+
 .row:after {
     content: "";
     display: table;
@@ -78,35 +78,6 @@ body {
 }
 
 
-/* Slideshow container */
-.slideshow-container {
-    position: relative;
-    background: #f1f1f1f1;
-}
-
-/* Slides */
-.mySlides {
-    display: none;
-    padding: 80px;
-    text-align: center;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -30px;
-    padding: 16px;
-    color: #888;
-    font-weight: bold;
-    font-size: 20px;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-
 /* Position the "next button" to the right */
 .next {
     position: absolute;
@@ -114,14 +85,14 @@ body {
     border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
+
 .prev:hover,
 .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
     color: white;
 }
 
-/* The dot/bullet/indicator container */
+
 .dot-container {
     text-align: center;
     padding: 20px;
@@ -207,12 +178,12 @@ body {
     z-index: 1;
 }
 
-/* Place the container to the left */
+/* Container to the left */
 .left {
     left: 0;
 }
 
-/* Place the container to the right */
+/* Container to the right */
 .right {
     left: 50%;
 }
@@ -293,18 +264,9 @@ body {
     }
 }
 
-/* CV headings */
-.cvheading {
-    background-color: white;
-    padding: 10px;
-    text-align: center;
-}
 
-/* cv image */
-.cv_image {
-    width: 100%;
-    height: auto;
-}
+
+
 
 
 
@@ -350,9 +312,7 @@ body {
 
 
 
-
-
-/* footer styling */
+/* footer */
 
 .footer {
     position: fixed;
@@ -431,6 +391,10 @@ body {
     color: black;
     width: 100%;
     font-size: 20px;
+
+
+
+
 
 
 
